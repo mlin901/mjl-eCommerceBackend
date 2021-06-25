@@ -90,6 +90,7 @@ router.put('/:id', (req, res) => {
       // get list of current tag_ids
       const productTagIds = productTags.map(({ tag_id }) => tag_id);
       // create filtered list of new tag_ids
+      // Added Json.parse so that the tagIds are turned into a real array
       const newProductTags = JSON.parse( req.body.tagIds )
         .filter((tag_id) => !productTagIds.includes(tag_id))
         .map((tag_id) => {
