@@ -43,8 +43,6 @@ router.post('/', async (req, res) => {
   */
     try {
       const tagData = await Tag.create(req.body);
-      // console.log('}}}}}}}}}}}}}}');
-      // console.log(tagData);
       res.status(200).json(tagData);
     } catch (err) {
       console.log(err);
