@@ -20,7 +20,6 @@ router.get('/:id', async (req, res) => {
   try {
     const categoryData = await Category.findByPk(req.params.id, {
     include: [{ all: true, nested: true }]  // From https://stackoverflow.com/questions/46614290/sequelize-eager-loading-error
-      // include: [{ model: Tag, through: ProductTag, as: 'Product-Tag' }]  // ********Didn't work, and didn't include category. Remove.
     });
 
     if (!categoryData) {
