@@ -1,6 +1,6 @@
 # mjl-eCommerceBackend
 
-mjl-eCommerceBackend is an e-commerce backend with an Express.js API and Sequelize-based access to a MySQL database. See [Description](#description) below or the !!!!!!demo video!!!!!!! for details.
+mjl-eCommerceBackend is an e-commerce backend with an Express.js API and Sequelize-based access to a MySQL database. See [Description](#description) below or the [demo video](https://drive.google.com/file/d/10a8JjCiWNI6dgE7ucLW4W2AD9mnu2dlU/view?usp=sharing) for details.
 
 ## Table of Contents
 
