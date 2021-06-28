@@ -62,4 +62,5 @@ Send questions to mjlinder218@gmail.com.
 For more information about the developer, see https://github.com/mlin901.
 
 ## Screenshot 
-![Note Taker application screen capture](./mjl_notetakerscreenshot.jpg)!!!!!!
+![Note Taker application screen capture](/screenCapture/mjl-eCommerceBackend.jpg)
+
